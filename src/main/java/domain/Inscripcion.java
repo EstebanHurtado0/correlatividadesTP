@@ -5,17 +5,17 @@ import java.util.Set;
 
 public class Inscripcion {
     private Set<Materia> materiasACursar;
-    private boolean fueAprobada;
+    private boolean aprobada;
     private LocalDateTime fechaDeEvaluacion;
 
     public Inscripcion(Set<Materia> materiasACursar) {
         this.materiasACursar = materiasACursar;
-        this.fueAprobada = false;
+        this.aprobada = false;
     }
 
 
-    public boolean fueAprobada(){
-        return fueAprobada;
+    public boolean aprobada(){
+        return aprobada = true;
     }
 
     public LocalDateTime getFechaDeEvaluacion() {
